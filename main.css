@@ -1,0 +1,16 @@
+.wrapper {
+   margin: 0 auto;
+   max-width: 960px;
+   text-align: center;
+}
+main {
+   padding: 0.5rem;
+   background-color: white;
+}
+footer {
+   clear: both;
+   text-align: center;
+}
+header {
+   padding: .5rem;
+}
