@@ -11,59 +11,48 @@ html {
    text-align: center;
    font-size: 120%;
 }
-nav {
+
+body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: black;
+}
+header {
+   color: white;
+   padding: .2rem;
    text-decoration: none;
-   padding: .5rem;
-   
+   text-size-adjust: 20%;
 }
-nav a:hover {
-   border: 4px solid white;
-   transition: all .5s ease;
-   background-color: rgb(93, 2, 93)
+header nav a {
+   color: white;
+   text-decoration: none;
 }
-main {
-   padding: 0.5rem;
+.ari {
+   height: 20%;
+   width: 30%;
 }
-p {
-   padding: .1rem;
+.fairy {
+   height: 15%;
+   width: 20%;
 }
 footer {
    clear: both;
    text-align: center;
    color: white;
-}
-header {
-   padding: .5rem;
-}
-h1 {
-   padding: .5rem;
-   background-color: black;
-   color: white;
-}
-a {
    text-decoration: none;
-   color: white;
-   padding: .2rem;
 }
-a:hover {
-   color: yellow;
-   transform: scale(1.2);
-}
-
 div.ArtGallery {
-   size: 50%;
+   size: 20%;
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
    justify-content: space-around;
    align-items: center;
    gap: .1rem;
    padding: 1rem;
 }
-.fairy {
-   height: 35%;
-   width: 30%;
-}
+
 .Insta {
    background-color: white;
    border-style: solid;
+   height: 20%;
+   width: 20%;
 }
