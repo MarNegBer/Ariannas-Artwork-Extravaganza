@@ -7,6 +7,11 @@ html {
    color: white;
 }
 
+body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+   background-color: black;
+}
+
 .wrapper {
    margin: 0 auto;
    max-width: 960px;
@@ -17,6 +22,7 @@ html {
 nav {
    text-decoration: none;
    padding: 1rem;
+   border: solid 2px white;
 }
 
 nav a:hover {
@@ -39,18 +45,20 @@ main {
 
 p {
    padding: .5rem;
-   font-size: 50%;
+   font-size: 120%;
    margin-right: 1rem;
+   line-height: 1.3;
 }
 
+
 footer {
-   clear: both;
+   justify-content: center;
+   align-items: center;
    text-align: center;
    color: white;
-   padding-top: 1rem;
+   padding: .5rem;
 }
 footer:hover {
-   color: yellow;
    transition: all .5s ease-in;
    transform: scale(1.2);
 }
@@ -70,13 +78,13 @@ a {
    text-decoration: none;
    color: white;
    padding: .3rem;
-   border: solid 2px white;
 }
-a:hover {
-   color: yellow;
+footer a:hover {
    transition: all .5s ease-in;
    transform: scale(1.2);
-   background-color: rgb(93, 2, 93)
+   background-color: rgb(93, 2, 93);
+   border: 1px solid white;
+   padding-bottom: 2rem;
 }
 
 div.ArtGallery {
@@ -86,7 +94,7 @@ div.ArtGallery {
    justify-content: space-around;
    align-items: center;
    gap: .1rem;
-   padding: 1rem;
+   padding: 1.8rem;
 }
 
 .Wolf:hover {
@@ -117,5 +125,8 @@ div.ArtGallery {
 
 .Insta {
    background-color: white;
-   border-style: solid;
+   width: 50%;
+   height: 20%;
+   align-self: center;
+   border-radius: 25px;
 }
